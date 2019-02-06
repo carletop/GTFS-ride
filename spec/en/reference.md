@@ -172,7 +172,7 @@ File: **Optional**
 |   |  | * **5** - customer was never charged the fare.  |
 |   |  | * **6** - customer was charged a fare but did not pay.  |
 |   |  | * **7** - Other.  |
-| fare_media | Optional | The **fare_media** field indicates what media was used to pay the fare or . |
+| transaction_media | Optional | The **transaction_media** field indicates what media was used for the transaction . |
 |   |  | * **0** - Not applicable or unknown.  |
 |   |  | * **1** - Cash.  |
 |   |  | * **2** - Paper transfer, single-use paper ticket, or token.  |
