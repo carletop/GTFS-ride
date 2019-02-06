@@ -164,26 +164,25 @@ File: **Optional**
 | rider_type_description | Optional | The **rider_type_description** field contains specific descriptions of the employed rider types (e.g., _Senior - 65 and older_, _Child - 12 and under_, etc.) |
 | fare_paid | Optional | The **fare_paid** field contains the amount of the fare paid by the unique rider. |
 | transaction_type | Optional | The **transaction_type** field indicates what entitled the customer to the trip.  |
-|   |  | * **0** - customer paid cash/credit/debit.  |
-|   |  | * **1** - customer used stored value or tokens.  |
-|   |  | * **2** - customer used a transfer.  |
-|   |  | * **3** - customer used a pass.  |
-|   |  | * **4** - customer used a promotional coupon.  |
-|   |  | * **5** - trip is a free trip.  |
-|   |  | * **6** - customer was never charged the fare.  |
-|   |  | * **7** - customer was charged a fare but did not pay.  |
-|   |  | * **8** - Other.  |
-| fare_media | Optional | The **fare_media** field indicates what media was used to pay the fare. |
+|   |  | * **0** - customer paid fare (cash/credit/debit, stored value, tokens, or digital device).  |
+|   |  | * **1** - customer used a transfer (paper or digital).  |
+|   |  | * **2** - customer used a pass (paper or digital).  |
+|   |  | * **3** - customer used a promotional coupon.  |
+|   |  | * **4** - trip is a free trip.  |
+|   |  | * **5** - customer was never charged the fare.  |
+|   |  | * **6** - customer was charged a fare but did not pay.  |
+|   |  | * **7** - Other.  |
+| fare_media | Optional | The **fare_media** field indicates what media was used to pay the fare or . |
 |   |  | * **0** - Not applicable or unknown.  |
 |   |  | * **1** - Cash.  |
 |   |  | * **2** - Paper transfer, single-use paper ticket, or token.  |
 |   |  | * **3** - Paper flash pass (visual inspection).  |
 |   |  | * **4** - Software flash pass (visual inspection).  |
-|   |  | * **5** - Proof-of-payment receipt  |
+|   |  | * **5** - Proof-of-payment receipt.  |
 |   |  | * **6** - Magnetic strip card, agency-issued.  |
-|   |  | * **7** - RFID or smart card, agency-issued  |
+|   |  | * **7** - RFID, smart card, or smartphone app., agency-issued.  |
 |   |  | * **8** - Magnetic strip card, open payment.  |
-|   |  | * **9** - RFID or smart card, open payment  |
+|   |  | * **9** - RFID, smart card, or smartphone app., open payment.  |
 | accompanying_device | Optional | The **accompanying_device** field contains information on any accompanying mobility, medical, or assistance devices or aides of the unique rider. |
 |   |  | * **0** - No accompanying devices or aides.  |
 |   |  | * **1** - Accompanying bike.  |
@@ -193,8 +192,8 @@ File: **Optional**
 |   |  | * **5** - Accompanying personal care attendant.  |
 |   |  | * **6** - Other accompanying device.  |
 | transfer_status | Optional | The **transfer_status** field contains the transfer status of the unique rider. |
-|   |  | * **0** - rider is not a transfer |
-|   |  | * **1** - rider is a transfer |
+|   |  | * **0** - rider is not a transfer. |
+|   |  | * **1** - rider is a transfer. |
 
 ### *__ridership.txt__*
 
