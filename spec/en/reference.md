@@ -169,8 +169,8 @@ File: **Optional**
 |   |  | * **2** - customer used a pass (paper or digital).  |
 |   |  | * **3** - customer used a promotional coupon.  |
 |   |  | * **4** - trip is a free trip.  |
-|   |  | * **5** - customer was never charged the fare.  |
-|   |  | * **6** - customer was charged a fare but did not pay.  |
+|   |  | * **5** - customer was never charged a fare.  |
+|   |  | * **6** - customer was charged a fare, but did not pay.  |
 |   |  | * **7** - Other.  |
 | transaction_media | Optional | The **transaction_media** field indicates what media was used for the transaction . |
 |   |  | * **0** - Not applicable or unknown.  |
@@ -179,9 +179,9 @@ File: **Optional**
 |   |  | * **3** - Paper flash pass (visual inspection).  |
 |   |  | * **4** - Software flash pass (visual inspection).  |
 |   |  | * **5** - Proof-of-payment receipt.  |
-|   |  | * **6** - Magnetic strip card, agency-issued.  |
+|   |  | * **6** - Magnetic stripe or chip card, agency-issued.  |
 |   |  | * **7** - RFID, smart card, or smartphone app., agency-issued.  |
-|   |  | * **8** - Magnetic strip card, open payment.  |
+|   |  | * **8** - Magnetic stripe or chip card, open payment.  |
 |   |  | * **9** - RFID, smart card, or smartphone app., open payment.  |
 | accompanying_device | Optional | The **accompanying_device** field contains information on any accompanying mobility, medical, or assistance devices or aides of the unique rider. |
 |   |  | * **0** - No accompanying devices or aides.  |
