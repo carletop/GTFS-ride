@@ -111,7 +111,7 @@ File: **Optional**
 |   |  | * **1** - Ramp/lift deployed.  |
 | ramp_boardings | Optional | The **ramp_boardings** field contains the total count of ramp or lift deployed boardings at the identified **stop_id**. Non-negative integer. |
 | ramp_alightings | Optional | The **ramp_alightings** field contains the total count of ramp or lift deployed alightings at the identified **stop_id**. Non-negative integer. |
-| service_date | Optional | The **service_date** field contains the date of the associated boarding and/or alighting data at the identified stop. The format is YYYYMMDD. |
+| service_date | **Required** | The **service_date** field contains the date of the associated boarding and/or alighting data at the identified stop. The format is YYYYMMDD. |
 | service_arrival_time | Optional | The **service_arrival_time** field contains the time of the actual arrival at the identified stop. The format is HH:MM:SS. |
 | service_departure_time | Optional | The **service_departure_time** field contains the time of the actual departure from the identified stop. The format is HH:MM:SS. |
 | source | Optional | The **source** field contains the collection method of the associated data. |
